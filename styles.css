@@ -3,13 +3,9 @@
   padding: 0;
 }
 
-@font-face {
-  font-family: 'Dense';
-  src: url(./Dense-Thin/Dense\ W01\ Thin/Dense.otf);
-}
-
 body {
-  font-family: 'Dense';
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
   background-color: rgb(2, 28, 59);
 }
 
@@ -25,7 +21,7 @@ body {
 }
 
 .hero-container h1 {
-  font-size: 100px;
+  font-size: 70px;
   letter-spacing: 0.1em;
   margin-bottom: 20%;
   text-align: center;
@@ -34,6 +30,7 @@ body {
 .hero-container h3 {
   letter-spacing: 0.1em;
   margin-bottom: 5%;
+  font-family: 'Caveat', cursive;
   text-align: center;
 }
 
@@ -43,6 +40,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 50px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .hero-container div a {
